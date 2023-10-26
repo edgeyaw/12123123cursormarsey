@@ -1,4 +1,4 @@
-(function oneko() {
+(function marsey() {
     const nekoEl = document.createElement("div");
     let nekoPosX = 32;
     let nekoPosY = 32;
@@ -56,12 +56,12 @@
         ],
     };
     function create() {
-        nekoEl.id = "oneko";
+        nekoEl.id = "marsey";
         nekoEl.style.width = "32px";
         nekoEl.style.height = "32px";
         nekoEl.style.position = "fixed";
         nekoEl.style.pointerEvents = "none";
-        nekoEl.style.backgroundImage = "url('./oneko.gif')";
+        nekoEl.style.backgroundImage = "url('./cursormarsey.gif')";
         nekoEl.style.imageRendering = "pixelated";
         nekoEl.style.left = "16px";
         nekoEl.style.top = "16px";
